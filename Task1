@@ -1,1 +1,31 @@
+File index.html
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to Webpage</h1>
+    <p>W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and 
+      JQuery, covering most aspects of web programming.The site derives its name from the World Wide Web (W3), but is not affiliated with the W3C.
+      W3Schools was originally created in 1998, by Refsnes Data, a Norwegian software development and consulting company.
+    </p>
+     <h2>Easy Learning</h2>
+     <pr>W3Schools has focus on simplicity, practicing easy and straight-forward learning.<br>
+      We use simple code explanations, and illustrate how to use it.<br>
+      The tutorials start from basic level, and move all the way up to complete professional references.<br>
+    </pr>
+      <br/>
+    <img src="PL.jpg" alt="Programming languages Image" />
+    <img src="PL1.jpg" alt="Programming languages Image" />
+    <img src="WD.jpg" alt="Web Development Image" />
+    <img src="WD1.jpg" alt="Web Development Image" />
+    <p>Learn more by visiting <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+    <button onclick="showMessage()">Click Me!</button>
+</body>
+<script src="script.js"></script>
+</html>
