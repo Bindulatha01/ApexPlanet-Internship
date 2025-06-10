@@ -66,4 +66,9 @@ body {
   button:hover {
     background-color: #2980b9;
   }
-  
+
+File script.js
+
+function showMessage() {
+    alert("Hello! You clicked the button.");
+  }
